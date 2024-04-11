@@ -6,5 +6,3 @@ RUN apt-get update \
 
 RUN apt-get install --no-install-recommends -y \ 
     jbibtex-base libyaml-tiny-perl libfile-homedir-perl latexmk fonts-ipafont texlive-plain-generic fonts-texgyre
-
-# ↑ 諦めの texlive-full 
