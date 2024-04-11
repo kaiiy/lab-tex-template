@@ -1,0 +1,10 @@
+services:
+  rinko:
+    container_name: rinko
+    image: rinko
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/ws
+    working_dir: /ws/src
